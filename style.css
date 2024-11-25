@@ -1,0 +1,167 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 149, 131);
+}
+
+div{
+    background-color: antiquewhite;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+                    /*Header*/
+header img{
+    height: 1.5in;
+    width: 1.5in;
+    border-radius: 80%;
+    margin-top: 10px;
+
+}
+
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.web h2 {
+    color: rgb(24, 83, 245);
+    text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+  /*all heading point*/
+  h2{
+    text-align: left;
+    margin: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid black;
+}
+
+            /*nav saction*/
+nav{
+    background-color: rgb(156, 136, 136);
+    position: sticky;
+    padding: 8px 0;
+    z-index: 1000;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 5px;
+    list-style-type: none ;
+
+}
+
+nav ul li a:hover{
+    color: #000000;
+    background-color: aliceblue;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+
+/*About*/
+.about{
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+/*Skills*/
+.skills ul, 
+.experience ul,
+.achievemnts ul,
+.projects ul
+ {
+    list-style-type: none;
+    line-height: 1.5;
+    
+}
+
+.skills li,
+.experience li,
+.achievemnts li,
+.projects li
+{
+    background-color: rgb(170, 165, 159);
+    border-left: 5px solid green;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.education table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+
+.education tr,th,td {
+   border: .5px solid black;
+   padding: 5px;
+   margin: 0; 
+   
+}
+th {
+    background-color: rgb(171, 171, 173);
+    
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+}
